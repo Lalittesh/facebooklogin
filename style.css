@@ -1,0 +1,165 @@
+body, h1 ,h2 ,p 
+{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+.main-div
+{
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    flex-direction :column;
+    align-items :center;
+    padding-bottom: 50px;
+}
+#logo
+{
+    font-size: 60px;
+    color : #335bff;
+    padding: 15px 0px 15px 0px;
+    /* top, right, bottom , left */
+}
+.signupform
+{
+    background-color: #ffffff;
+    width :432px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    cursor: default;
+}
+.formheading
+{
+    text-align: center;
+    width: 100%;
+    padding: 10px 16px;
+    border-bottom: 1px solid #cdd0d5;
+}
+.formheading #quick
+{
+    font-size: 15px;
+    color: #606770;
+    padding-top: 8px;
+}
+.formheading #createacc
+{
+    font-size: 25px;
+    color: #1c1e21;
+}
+.inputfields
+{
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap :wrap;
+}
+input , select 
+{
+    padding :11px;
+    border: 1px solid #cdd0d5;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+}
+.halfwidth
+{
+    display: flex;
+    width: 48%;
+}
+.fullwidth
+{
+    display: flex;
+    width: 100%;
+}
+label
+{
+    font-size: 12px;
+    color: #90949c;
+    margin-bottom: 5px;
+}
+.dob-div
+{
+    display :flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.quat-width
+{
+    display: flex;
+    width: 31%;
+}
+.radiobtn
+{
+    border: 1px solid #cdd0d5;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px;
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+}
+.radiolabel {
+    color: #1d2129;
+    font-size: 15px;
+    margin: 0;            
+    padding: 0;          
+}
+
+.radioinput
+{
+    margin: 0;
+    width: auto;
+    transform: scale(1.1);  
+    padding-bottom: 0;
+}
+#firstsmall
+{
+    color: #777;
+    font-size: 11px;
+    padding: 15px 0px;
+}
+#secondsmall
+{
+    color: #777;
+    font-size: 11px;
+    padding: 0px 0px 15px 0px;
+}
+a
+{
+    text-decoration: none;
+    color: #385898;
+}
+.signupbtndiv
+{
+    padding: 0px 15px 15px 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+#signupbtn
+{
+    border-radius: 5px;
+    background-color: #00a400;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 52px;
+    height: 36px;
+    border: none;
+    cursor: pointer;
+}
+.lastdiv
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 13px;
+    color: #1877f2;
+    font-size: 17px;
+}
